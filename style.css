@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url("https://i.pinimg.com/736x/17/98/f0/1798f0e79d761c7d2b3b169e8f36d4cc.jpg");
+    border: 2px solid black;
+    height: 800px;
+}
+
+.logobtn {
+    display: flex;
+    /* border: 2px solid black; */
+    height: 10%;
+    justify-content: space-between;
+}
+
+h1 {
+    position: sticky;
+    top: 0%;
+    color: red;
+    margin-top: 8%;
+    margin-left: 5px;
+    text-shadow: 4px 4px rgb(10, 9, 9);
+    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+button {
+    border: none;
+    background-color: red;
+    /* position: sticky;
+    top: 0%; */
+    display: inline;
+    border-radius: 10px;
+    padding: 8px 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 1px 1px black;
+    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 2px 2px 1px 1px rgb(249, 26, 67);
+}
+
+.pic {}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    /* border: 2px solid black; */
+    color: rgb(250, 5, 5);
+    margin: auto;
+    margin-top: 300px;
+    margin-left: 150px;
+    margin-right: 250px;
+    justify-content: center;
+    align-items: center;
+    z-index: 60;
+    font-size: 50px;
+}
+
+.search {
+    /* border: 2px solid red; */
+    margin-top: 9px;
+    margin-left: 200px;
+    margin-right: 600px;
+
+}
+
+.type {
+    border: 2px solid black;
+    width: 80%;
+    padding: 20px 5px;
+    border-radius: 8px;
+    background-color: rgb(49, 48, 48);
+    color: rgb(249, 244, 244);
+    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    box-shadow: 5px 8px 3px 3px rgb(9, 8, 8);
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.type:hover {
+    box-shadow: 2px 2px 2px 2px red;
+    transform: scale(1.2);
+}
+
+.card {
+    height: 800px;
+    /* border: 2px solid red; */
+    background-color: rgba(58, 58, 58, 0.801);
+    opacity: 0.9;
+    z-index: 999;
+}
+
+.tv {
+    /* background-color: gray; */
+    display: flex;
+    margin-top: 20px;
+    border: 2px soli rgb(243, 237, 237);
+    height: 250px;
+    width: 100%;
+
+}
+
+.txt {
+    height: 10%;
+    width: 40%;
+    border: 2px solid black;
+    margin-left: 9%;
+    text-align: center;
+    padding: 120px 0;
+    font-size: 30px;
+    color: rgb(251, 252, 252);
+}
+
+.subpic {
+    height: 100%;
+    width: 40%;
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    background-image: url("https://assets.mspimages.in/gear/wp-content/uploads/2022/08/netflix-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+    box-shadow: 2px 2px 3px 3px rgb(250, 2, 2);
+    transition-property: transform;
+    transition-duration: 2s;
+
+}
+
+.subpic:hover {
+    transform: rotatey(360deg);
+
+}
+
+.heading {
+    border: 2px solid white;
+}
+
+.mobile {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid rgb(238, 6, 6);  */
+    margin-top: 5%;
+    background-color: black
+}
+
+.mobpic {
+    /* border: 2px solid rgb(251, 244, 244); */
+    height: 80%;
+    width: 20%;
+    background-image: url("https://media.idownloadblog.com/wp-content/uploads/2016/11/Netflix-offline-viewing-iPhone-screenshot-001.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 27%;
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.mobtxt {
+    /* border: 2px solid rgb(239, 235, 235); */
+    height: 80%;
+    width: 30%;
+    margin-top: 3%;
+    color: white;
+    font-size: 44px;
+    font-weight: bolder;
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.subofsub {
+    font-size: 20px
+}
+
+p {
+    margin-top: 20px;
+}
+
+.mobpic:hover {
+    transform: scale(1.1);
+}
