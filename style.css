@@ -6,7 +6,9 @@
 }
 
 .container {
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/32c47234-8398-4a4f-a6b5-6803881d38bf/6fac70dc-ef61-4033-8fbd-570c85f819ae/PK-en-20240122-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-image: url("https://media.baamboozle.com/uploads/images/50152/1599536967_805720");
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2px solid black;
     height: 800px;
 }
