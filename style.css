@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +26,7 @@
 h1 {
     position: sticky;
     top: 0%;
-    color: red;
+    color: rgb(254, 2, 2);
     margin-top: 8%;
     margin-left: 5px;
     text-shadow: 4px 4px rgb(10, 9, 9);
@@ -51,18 +54,18 @@ button {
 }
 
 button:hover {
-    box-shadow: 2px 2px 1px 1px rgb(249, 26, 67);
+    box-shadow: 2px 2px 1px 1px rgb(250, 246, 246);
 }
 
 .pic {}
 
 body {
-    background-color: black;
+    background-color: rgb(5, 5, 5);
 }
 
 h2 {
     /* border: 2px solid black; */
-    color: rgb(250, 5, 5);
+    color: white;
     margin: auto;
     margin-top: 300px;
     margin-left: 150px;
@@ -71,6 +74,7 @@ h2 {
     align-items: center;
     z-index: 60;
     font-size: 50px;
+    font-family: 'Protest Riot', sans-serif;
 }
 
 .search {
@@ -82,7 +86,7 @@ h2 {
 }
 
 .type {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 80%;
     padding: 20px 5px;
     border-radius: 8px;
@@ -98,17 +102,17 @@ h2 {
 }
 
 .type:hover {
-    box-shadow: 2px 2px 2px 2px red;
+    box-shadow: 2px 2px 2px 2px rgb(13, 13, 13);
     transform: scale(1.2);
 }
 
-  .card {
+.card {
     height: 800px;
-    border: 2px solid red; 
-    background-color: rgba(6, 6, 6, 0.801);
+    /* border: 2px solid red;  */
+    background-color: rgba(6, 6, 6, 0.348);
     opacity: 0.9;
-    z-index: 999; 
-} 
+    z-index: 999;
+}
 
 .tv {
     /* background-color: gray; */
@@ -123,12 +127,13 @@ h2 {
 .txt {
     height: 10%;
     width: 40%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-left: 9%;
     text-align: center;
     padding: 120px 0;
     font-size: 30px;
     color: rgb(251, 252, 252);
+    font-family: 'Protest Riot', sans-serif;
 }
 
 .subpic {
@@ -140,10 +145,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5%;
-    box-shadow: 2px 2px 3px 3px rgb(250, 2, 2);
+    box-shadow: 2px 2px 3px 3px rgb(128, 126, 126);
     transition-property: transform;
     transition-duration: 2s;
-
+    transition-delay: 1s;
 }
 
 .subpic:hover {
@@ -188,6 +193,7 @@ h2 {
     font-weight: bolder;
     transition-property: transform;
     transition-duration: 3s;
+    font-family: 'Protest Riot', sans-serif;
 }
 
 .subofsub {
@@ -200,4 +206,106 @@ p {
 
 .mobpic:hover {
     transform: scale(1.2);
+}
+
+.facility {
+    height: 380px;
+    width: 100vw;
+    /* border: 2px solid red;  */
+}
+
+.faci {
+    height: 90%;
+    width: 60%;
+    /* border: 2px solid red;  */
+    margin-top: 18px;
+    margin-left: 9%;
+}
+
+.face {
+    font-size: 44px;
+    color: white;
+    margin-top: 6%;
+    margin-left: 27%;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.front {
+    color: white;
+    margin-left: 27%;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Protest Riot', sans-serif;
+}
+.kids{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.child{
+    height: 90%;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 5%;
+    /* border: 2px solid red; */
+    background-image: url("https://occ-0-3587-64.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.childtxt{
+    height: 90%;
+    width: 50%;
+    margin-top: 15px;
+    margin-right: 5%;
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 90px;
+    font-family: 'Protest Riot', sans-serif;
+    padding-top: 10px;
+}
+.childp{
+    font-size: 29px;
+    margin-top: px;
+}
+.questions{
+    /* border: 2px solid  red; */
+    height: 800px;
+}
+.freq{
+    color: white;
+    margin-top: 0px;
+    margin-left: 330px;
+}
+.frequent{
+    height: 100px;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: rgba(28, 27, 27, 0.956);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fre{
+    color: white;
+    padding-top: 35px;
+    padding-left: 28px;
+    font-size: 30px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.frequent:hover{
+    background-color: rgba(66, 65, 65, 0.672);
+}
+.fre:hover{
+    color: red;
+}
+.frei{
+    color: white;
+    padding-top: 35px;
+    padding-right: 28px;
+    font-size: 30px;
+    font-family: 'Protest Riot', sans-serif;
 }
