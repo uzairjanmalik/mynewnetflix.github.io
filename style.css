@@ -12,8 +12,12 @@
     background-image: url("https://media.baamboozle.com/uploads/images/50152/1599536967_805720");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid black;
+    /* border: 2px solid black;  */
     height: 800px;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    border-top: 2px solid white;
+    box-shadow: 2px 2px 2px 2px rgb(71, 71, 71);
 }
 
 .logobtn {
@@ -109,9 +113,11 @@ h2 {
 .card {
     height: 800px;
     /* border: 2px solid red;  */
-    background-color: rgba(6, 6, 6, 0.178);
+    background-color: rgba(6, 6, 6, 0.733);
     opacity: 0.9;
     z-index: 999;
+    border-top: 2px solid black;
+    border-radius: 20px;
 }
 
 .tv {
@@ -144,8 +150,7 @@ h2 {
     background-image: url("https://assets.mspimages.in/gear/wp-content/uploads/2022/08/netflix-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 5%;
-    box-shadow: 2px 2px 3px 3px rgb(128, 126, 126);
+    border-radius: 6px;
     transition-property: transform;
     transition-duration: 2s;
     transition-delay: 1s;
@@ -153,7 +158,7 @@ h2 {
 
 .subpic:hover {
     transform: rotatey(360deg);
-
+    box-shadow: 2px 2px 3px 3px rgba(61, 61, 61, 0.774);
 }
 
 .heading {
@@ -345,7 +350,7 @@ p {
     transition-duration: 2s;
 }
 .to:hover{
-    transform: scale(1.1) scaley(1.1);
+    transform: scaley(1.4);
 }
 .qa{
     height: 500px;
